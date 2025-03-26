@@ -1,0 +1,18 @@
+.download-btn {
+    background: linear-gradient(to right, #0F172A, #1E293B); 
+    color: #60A5FA;
+    font-weight: bold;
+    font-family: sans-serif; 
+    font-size: 16px;
+    padding: 25px 75px;
+    border: none;
+    border-radius: 20px; 
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+
+.download-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
