@@ -1,12 +1,13 @@
 header{
     display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 10px 2%;
 }
 .content{
     height: 550px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 25px;
+    gap: 35px;
 }
