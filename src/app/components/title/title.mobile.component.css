@@ -1,0 +1,9 @@
+
+@media (max-width: 768px) {
+    .container__title > h1 {
+        font-size: 2rem;
+    }
+    .container__title > span{
+        font-size: 0.6rem;
+    }
+}

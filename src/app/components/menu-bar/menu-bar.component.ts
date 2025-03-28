@@ -12,4 +12,12 @@ export class MenuBarComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  // Variável que controla o estado do menu (aberto/fechado)
+  isMenuOpen = false;
+
+  // Método para alternar o estado do menu
+  toggleMenu() {
+    this.isMenuOpen = !this.isMenuOpen;
+  }
+  
 }

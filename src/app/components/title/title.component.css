@@ -1,8 +1,7 @@
 
-
 .container__title{
     font-family: 'Orbitron';
-    margin-top: 50px;
+    margin-top: 20px;
 }
 .container__title > h1{
     color: #F5F5F5 ;
@@ -29,4 +28,5 @@
               0px 0px 20px rgba(30, 58, 138, 1),
               0px 0px 30px rgba(255, 255, 255, 0.5);
 }
+
 

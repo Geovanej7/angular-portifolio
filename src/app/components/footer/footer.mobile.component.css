@@ -1,0 +1,10 @@
+@media (max-width: 768px) {
+    .container__footer > ul {
+        gap: 45px; 
+        padding: 35px;
+    }
+
+    .container__footer > ul > li > a {
+        font-size: 16px; 
+    }
+}

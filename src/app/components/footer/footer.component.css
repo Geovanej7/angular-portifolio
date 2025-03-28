@@ -1,8 +1,9 @@
 .container__footer{
-    padding: 40px;
+    padding: 25px;
     background-color: #1E1E1E;
-
+    margin-top: 60px;
 }
+
 .container__footer > ul{
     display: flex;
     justify-content: center;
@@ -42,3 +43,4 @@
 .container__footer ul li a.active::after {
     width: 100%;
 }
+
