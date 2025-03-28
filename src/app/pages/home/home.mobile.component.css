@@ -1,17 +1,19 @@
 @media (max-width: 768px) {
     header {
         display: flex;
-        gap: 50px;
+        gap: 40px;
         flex-direction: column-reverse;
     }
     .content {
         margin-top: 40px;
         height: auto; 
-        gap: 25px; 
+        gap: 30px; 
+        
     }
     .container__body{
         display: flex;
         flex-direction: column;
-        gap: 250px;
+        gap: 280px;
+       
     }
 }

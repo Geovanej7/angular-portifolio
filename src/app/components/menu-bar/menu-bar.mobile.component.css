@@ -1,28 +1,26 @@
-
-.menu-hamburger {
-    display: none;
-    flex-direction: column;
-    justify-content: space-around;
-    margin-top: 10px;
-    margin-right: 230px;
-    align-items: center;
-    width: 30px;
-    height: 25px;
-    cursor: pointer;
-  }
-  
-  .menu-hamburger .bar {
-    width: 30px;
-    height: 5px;
-    background-color: #EAEAEA;
-    border-radius: 5px;
-  }
-
-
-  /* Estilos Responsivos */
   @media (max-width: 768px) {
+
+    .menu-hamburger {
+      display: none;
+      flex-direction: column;
+      justify-content: space-around;
+      margin-top: 10px;
+      margin-right: 240px;
+      align-items: center;
+      width: 30px;
+      height: 25px;
+      cursor: pointer;
+    }
+    
+    .menu-hamburger .bar {
+      width: 30px;
+      height: 5px;
+      background-color: #EAEAEA;
+      border-radius: 5px;
+    }
+
     .container__menu-bar > ul {
-      display: none; /* Esconde o menu tradicional */
+      display: none; 
       width: 60%; 
       flex-direction: column; 
       gap: 40px;
@@ -34,7 +32,7 @@
       z-index: 1000; 
       opacity: 0; 
       visibility: hidden; 
-      transition: opacity 0.3s ease, visibility 0s 0.3s; /* Animação de desvanecimento */
+      transition: opacity 0.3s ease, visibility 0s 0.3s; 
     }
   
     .container__menu-bar > ul.show {
@@ -42,9 +40,9 @@
       text-align: center;
       justify-content: center;
       background-color: #1E1E1E;
-      opacity: 1; /* Torna o menu visível */
-      visibility: visible; /* Torna o menu visível */
-      transition: opacity 0.3s ease, visibility 0s 0s; /* Remove o delay de visibilidade */
+      opacity: 1; 
+      visibility: visible; 
+      transition: opacity 0.3s ease, visibility 0s 0s; 
     }
 
     .container__menu-bar ul > li {

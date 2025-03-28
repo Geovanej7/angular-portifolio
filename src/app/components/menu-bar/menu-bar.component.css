@@ -33,7 +33,7 @@
     bottom: -3px;
     width: 0;
     height: 2px;
-    background-color: #3b82f6; /* Cor azul */
+    background-color: #3b82f6; 
     transition: width 0.5s ease-in-out;
 }
 
@@ -42,19 +42,5 @@
 }
 
 .container__menu-bar ul li a.active::after {
-    width: 100%;
+    width: 100% !important;
 }
-  
-@media (min-width: 1920px) {
-  .container__menu-bar {
-    margin-right: 440px;
-}
-.close__menu {
-  display: none;
-}
- }
-@media (min-width: 1024px) {
-  .close__menu {
-    display: none;
-  }
- }

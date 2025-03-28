@@ -1,0 +1,14 @@
+ 
+@media (min-width: 1920px) {
+  .container__menu-bar {
+    margin-right: 440px;
+}
+.close__menu {
+  display: none;
+}
+ } 
+@media (min-width: 1024px) {
+  .close__menu {
+    display: none;
+  }
+ }

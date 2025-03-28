@@ -32,7 +32,7 @@
     bottom: -3px;
     width: 0;
     height: 2px;
-    background-color: #3b82f6; /* Cor azul */
+    background-color: #3b82f6; 
     transition: width 0.5s ease-in-out;
 }
 
