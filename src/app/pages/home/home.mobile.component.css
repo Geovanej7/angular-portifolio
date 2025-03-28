@@ -1,9 +1,11 @@
 @media (max-width: 768px) {
     header {
         display: flex;
+        gap: 50px;
         flex-direction: column-reverse;
     }
     .content {
+        margin-top: 40px;
         height: auto; 
         gap: 25px; 
     }

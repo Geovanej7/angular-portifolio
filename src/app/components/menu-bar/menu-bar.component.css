@@ -45,66 +45,16 @@
     width: 100%;
 }
   
-  /* Estilos do Menu Hamburger */
-.menu-hamburger {
+@media (min-width: 1920px) {
+  .container__menu-bar {
+    margin-right: 440px;
+}
+.close__menu {
+  display: none;
+}
+ }
+@media (min-width: 1024px) {
+  .close__menu {
     display: none;
-    flex-direction: column;
-    justify-content: space-around;
-    margin-top: 10px;
-    margin-right: 230px;
-    align-items: center;
-    width: 30px;
-    height: 25px;
-    cursor: pointer;
   }
-  
-  .menu-hamburger .bar {
-    width: 30px;
-    height: 5px;
-    background-color: #EAEAEA;
-    border-radius: 5px;
-  }
-
-  /* Estilos Responsivos */
-  @media (max-width: 768px) {
-    .container__menu-bar > ul {
-      display: none; /* Esconde o menu tradicional */
-      width: 100%; 
-      flex-direction: column; 
-      gap: 40px;
-      text-align: center;
-      background-color:#1E1E1E; 
-      padding: 20px;
-      position: fixed; /* Fixa o menu no topo */
-      top: 0;
-      left: 0;
-      height: 100%; /* Para cobrir toda a altura da tela */
-      z-index: 1000; /* Garante que o menu fique acima do conteúdo */
-      opacity: 0; /* Inicia invisível */
-      visibility: hidden; /* Esconde o menu */
-      transition: opacity 0.3s ease, visibility 0s 0.3s; /* Animação de desvanecimento */
-    }
-  
-    .container__menu-bar > ul.show {
-      display: flex; 
-      text-align: center;
-      justify-content: center;
-      background-color: #1E1E1E;
-      opacity: 1; /* Torna o menu visível */
-      visibility: visible; /* Torna o menu visível */
-      transition: opacity 0.3s ease, visibility 0s 0s; /* Remove o delay de visibilidade */
-    }
-
-    .container__menu-bar ul > li {
-        background-color: #1E1E1E;  
-    
-     }
-     
-    .container__menu-bar ul > li > a {
-       background-color: #1E1E1E;
-    }
-  
-    .menu-hamburger {
-      display: flex; /* Exibe o ícone do hambúrguer */
-    }
-  }
+ }
