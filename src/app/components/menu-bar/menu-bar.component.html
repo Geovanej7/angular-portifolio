@@ -1,12 +1,11 @@
 <div class="container__menu-bar">
-     <!-- Ícone do hambúrguer -->
+  
   <div class="menu-hamburger" (click)="toggleMenu()">
     <div class="bar"></div>
     <div class="bar"></div>
     <div class="bar"></div>
   </div>
 
-  <!-- Menu -->
   <ul [ngClass]="{'show': isMenuOpen}">
     <button class="close__menu" (click)="toggleMenu()">X</button>
     <li><a href="#">Home</a></li>
